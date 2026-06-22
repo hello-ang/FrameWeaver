@@ -21,11 +21,12 @@
 - **分镜级台词配音**：每个分镜可独立配置台词/旁白，使用 Edge-TTS 生成中文配音
 - **字幕自动生成**：基于 Whisper 模型自动识别配音内容，生成 SRT 字幕并烧录到视频
 
-### 视频生成
+### 多模型生态适配 (AI Models Support)
 
-- **Agnes Video V2.0**：高质量 AI 图生视频，支持首帧+尾帧关键帧模式
-- **Agnes Image 2.0/2.1**：角色设定图、分镜首尾帧图像生成
-- **有效时长档位**：5秒(121帧)、10秒(241帧)、15秒(361帧)，24fps
+- **图像生成模型**：完全适配 Agnes Image 2.0/2.1、GPT Image 2、FLUX 等主流文生图/图生图模型，用于角色设定与分镜首尾帧。
+- **视频生成模型**：全面支持 Agnes Video V2.0、Seedance 2.0、Runway 等高质量图生视频模型（完美支持首帧+尾帧关键帧插值模式）。
+- **规划与编剧模型**：支持 DeepSeek-Chat、GPT-4o、Claude 3.5 等强推理大语言模型进行剧本与工作流编排。
+- **动态参数适配**：针对不同视频模型的有效时长档位（如 5s/10s/15s, 24fps）自动进行对齐与参数封装。
 
 ### 项目管理
 
@@ -53,9 +54,9 @@
 | **前端框架** | React 19 + TypeScript + Vite |
 | **工作流可视化** | @xyflow/react (React Flow) |
 | **路由管理** | React Router v7 |
-| **AI 规划** | DeepSeek 思考模型（剧本分析/分镜规划/提示词生成） |
-| **图像生成** | Agnes Image 2.0/2.1（文生图 + 图生图） |
-| **视频生成** | Agnes Video V2.0（图生视频，关键帧模式） |
+| **AI 规划** | DeepSeek、GPT-4o、Claude 3.5（剧本分析/分镜规划/提示词生成） |
+| **图像生成** | Agnes Image, GPT Image 2, FLUX 等主流模型（文生图 + 图生图） |
+| **视频生成** | Agnes Video, Seedance 2.0, Runway 等模型（支持关键帧模式） |
 | **语音合成** | Edge-TTS（多角色中文配音） |
 | **字幕生成** | OpenAI Whisper（语音转文字） |
 | **视频处理** | FFmpeg + moviepy（拼接/配音/烧字幕） |
