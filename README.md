@@ -25,7 +25,7 @@
 
 - **图像生成模型**：完全适配 Agnes Image 2.0/2.1、GPT Image 2、FLUX 等主流文生图/图生图模型，用于角色设定与分镜首尾帧。
 - **视频生成模型**：全面支持 Agnes Video V2.0、Seedance 2.0、Runway 等高质量图生视频模型（完美支持首帧+尾帧关键帧插值模式）。
-- **规划与编剧模型**：支持 DeepSeek-Chat、GPT-4o、Claude 3.5 等强推理大语言模型进行剧本与工作流编排。
+- **规划与编剧模型**：支持 DeepSeek-R1、GPT-5、Claude 4.6、Gemini 3.1 Pro 等强推理大语言模型进行剧本与工作流编排。
 - **动态参数适配**：针对不同视频模型的有效时长档位（如 5s/10s/15s, 24fps）自动进行对齐与参数封装。
 
 ### 项目管理
@@ -54,7 +54,7 @@
 | **前端框架** | React 19 + TypeScript + Vite |
 | **工作流可视化** | @xyflow/react (React Flow) |
 | **路由管理** | React Router v7 |
-| **AI 规划** | DeepSeek、GPT-4o、Claude 3.5（剧本分析/分镜规划/提示词生成） |
+| **AI 规划** | DeepSeek-R1、GPT-5、Claude 4.6、Gemini 3.1 Pro 等强推理模型（剧本分析/分镜规划/提示词生成） |
 | **图像生成** | Agnes Image, GPT Image 2, FLUX 等主流模型（文生图 + 图生图） |
 | **视频生成** | Agnes Video, Seedance 2.0, Runway 等模型（支持关键帧模式） |
 | **语音合成** | Edge-TTS（多角色中文配音） |
