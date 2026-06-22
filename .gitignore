@@ -1,0 +1,61 @@
+# ============================================================
+# OS
+# ============================================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# ============================================================
+# Python / Backend
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environment
+backend/venv/
+venv/
+.env
+
+# IDE
+.idea/
+.vscode/
+*.code-workspace
+
+# Database
+*.db
+*.sqlite3
+
+# Storage (generated files)
+backend/storage/
+!backend/storage/.gitkeep
+
+# Logs
+*.log
+
+# ============================================================
+# Node.js / Frontend
+# ============================================================
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.env.production
+
+# ============================================================
+# Misc
+# ============================================================
+*.bak
+*.tmp
+*.temp
+.qoder/
+.cursor/

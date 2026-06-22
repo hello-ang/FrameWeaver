@@ -1,0 +1,25 @@
+# Environment
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Database
+*.db
+
+# Storage (generated files)
+storage/uploads/
+storage/outputs/
+storage/temp/
+
+# IDE
+.vscode/
+.idea/
+
+# Virtual environment
+venv/
+.venv/
